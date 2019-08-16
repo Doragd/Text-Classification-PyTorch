@@ -1,4 +1,8 @@
+# Text-Classification-PyTorch :whale2:
 
+Here is a new boy :bow:  who wants to become a NLPer and his repository for Text Classification.  Besides TextCNN and TextAttnBiLSTM, more models will be added in the near future. 
+
+Thanks for you Star:star:, Fork and Watch！
 
 ## Dataset
 
