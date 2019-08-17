@@ -57,7 +57,7 @@ Thanks for you Star:star:, Fork and Watch！
 | Attention + BiLSTM | 47.015     | 85.632     |
 | Attention + BiGRU  | **47.854** | 85.102     |
 
-## Requirements
+## Requirement
 
 Please install the following library requirements first.
 
@@ -140,4 +140,18 @@ $python main.py run --status='test' --best_model="checkpoints/BEST_checkpoint_SS
   * Do not set `padding_idx=0` in embedding layer
 * TextAttnBiLSTM
   * Apply dropout on embedding layer, LSTM layer, and fully-connected layer
+
+## Acknowledge
+
+* Motivated by https://github.com/TobiasLee/Text-Classification
+* Thanks to https://github.com/bigboNed3/chinese_text_cnn
+* Thanks to https://github.com/ShawnyXiao/TextClassification-Keras
+
+## Reference
+
+[1] [Convolutional Neural Networks for Sentence Classification](http://www.aclweb.org/anthology/D14-1181)
+
+[2] [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1510.03820)
+
+[3] [Attention-Based Bidirection LSTM for Text Classification](https://www.aclweb.org/anthology/P16-2034)
 
